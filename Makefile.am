@@ -15,7 +15,7 @@ check_PROGRAMS=testSchemas testRelax testSAX testHTML testXPath testURI \
                testReader testapi testModule runtest runsuite testchar \
 	       testdict runxmlconf testrecurse testlimits
 
-bin_PROGRAMS = xmllint xmlcatalog libxml2_memory_fuzzer # modified name
+bin_PROGRAMS = xmllint xmlcatalog libxml2_fuzzer
 
 bin_SCRIPTS=xml2-config
 
