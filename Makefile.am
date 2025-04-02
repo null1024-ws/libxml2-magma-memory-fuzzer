@@ -177,7 +177,7 @@ testdso_la_LDFLAGS = -module -no-undefined -avoid-version -rpath $(libdir)
 # during fuzzing process. So we turn to the memory_fuzzer as also reflected in configrc file
 # in magma benchmark
 libxml2_fuzzer_SOURCES = \
-    fuzz/libxml2_xml_read_memory_fuzzer \
+    fuzz/libxml2_xml_read_memory_fuzzer.c \
     fuzz/afl_driver.c \
     fuzz/FuzzedDataProvider.c
 
